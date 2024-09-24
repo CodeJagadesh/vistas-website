@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vistas Avenue System</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Full-screen image styling */
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .bg-image {
+      /* The image */
+      background-image: url('./img/pexels-pixabay-269077.jpg'); /* Replace with your image URL */
+      
+      /* Full-screen background */
+      height: 100%; 
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     
+    }
+
+    /* Optional: Centered text over the image */
+    .content {
+      height: 100%;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      color:yellowgreen;
+      text-align: center;
+      font-size: 2em;
+      /* Optional: semi-transparent overlay */
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Vistas Avenue System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./Opening.html" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Who we are.html" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Our Purpose.html" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Login.html" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Agriculture.html"  href="#">Agriculture</a>
+          </li>
+          <li class="nav-item"></li>
+            <a class="nav-link" href="./Horticulture.html" href="#">Horticulture</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./Careers.html" href="#">Career</a></li>
+              <li><a class="dropdown-item" href="./Our Brand.html" href="#">Brand</a></li>
+              <li><a class="dropdown-item" href="./Phases.html" href="#">Phases</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bootstrap JS and dependencies (Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  
+  <div class="bg-image">
+    <div class="content">
+    
+    </div>
+  </div>
+   <footer>
+    <div class="footer-customer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <div class="footer-content">
+            <div class="footer-about"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+</body>
+</html>
